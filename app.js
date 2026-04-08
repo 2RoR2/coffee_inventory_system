@@ -4,7 +4,7 @@ const inventoryItems = [
   { category: "Drink", name: "Signature Salted Kopi", price: 6.0, flavorClass: "flavor-hong-kong" },
   { category: "Drink", name: "Cham", price: 5.5, flavorClass: "flavor-portuguese" },
   { category: "Drink", name: "Hainan Kopi", price: 5.8, flavorClass: "flavor-chicken" },
-  { category: "Drink", name: "The C Special", price: 5.5, flavorClass: "flavor-tuna" },
+  { category: "Drink", name: "Teh C Special", price: 5.5, flavorClass: "flavor-tuna" },
   { category: "Drink", name: "Teh Tarik", price: 5.2, flavorClass: "flavor-egg" },
   { category: "Drink", name: "Hainan Teh", price: 5.6, flavorClass: "flavor-ham-cheese" },
   { category: "Drink", name: "Milo", price: 5.5, flavorClass: "flavor-pistachio" }
