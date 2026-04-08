@@ -1,15 +1,15 @@
 :root {
-  --bg: #fff6f2;
-  --bg-accent: #ffe8dc;
-  --panel: rgba(255, 250, 247, 0.92);
-  --panel-strong: #fffdfb;
-  --line: rgba(171, 124, 128, 0.18);
-  --text: #5b4246;
-  --muted: #9a7d82;
-  --brand: #e58ea0;
-  --brand-strong: #cf7187;
-  --success: #7dbb9d;
-  --shadow: 0 20px 45px rgba(214, 162, 170, 0.18);
+  --bg: #f4eadf;
+  --bg-accent: #d8c0a8;
+  --panel: rgba(255, 250, 244, 0.94);
+  --panel-strong: #fffaf4;
+  --line: rgba(106, 72, 43, 0.18);
+  --text: #4f3422;
+  --muted: #8a6b55;
+  --brand: #7b4b2a;
+  --brand-strong: #5b341b;
+  --success: #6f8f5f;
+  --shadow: 0 20px 45px rgba(91, 60, 34, 0.16);
   --radius-lg: 24px;
   --radius-md: 16px;
   --radius-sm: 12px;
@@ -35,8 +35,8 @@ body {
   overflow-x: hidden;
   background:
     radial-gradient(circle at top left, rgba(255, 255, 255, 0.88), transparent 30%),
-    radial-gradient(circle at top right, rgba(255, 229, 236, 0.75), transparent 28%),
-    linear-gradient(145deg, #fff9f6 0%, var(--bg) 48%, var(--bg-accent) 100%);
+    radial-gradient(circle at top right, rgba(171, 132, 94, 0.22), transparent 28%),
+    linear-gradient(145deg, #fcf7f2 0%, var(--bg) 48%, var(--bg-accent) 100%);
 }
 
 button,
@@ -97,7 +97,7 @@ canvas {
   object-position: center;
   flex: 0 0 auto;
   border: 3px solid rgba(255, 255, 255, 0.88);
-  box-shadow: 0 12px 24px rgba(214, 162, 170, 0.2);
+  box-shadow: 0 12px 24px rgba(91, 60, 34, 0.16);
   background: #fff;
 }
 
@@ -182,11 +182,11 @@ canvas {
 }
 
 .app-toast.success {
-  background: rgba(106, 160, 126, 0.96);
+  background: rgba(95, 125, 79, 0.96);
 }
 
 .app-toast.warning {
-  background: rgba(208, 133, 93, 0.97);
+  background: rgba(176, 108, 60, 0.97);
 }
 
 .print-report-root {
@@ -212,9 +212,9 @@ canvas {
 .print-report-summary {
   margin-bottom: 20px;
   padding: 14px 16px;
-  border: 1px solid #edd6dc;
+  border: 1px solid #d9c6b6;
   border-radius: 12px;
-  background: #fff7fa;
+  background: #f8f1ea;
 }
 
 .print-report-table {
@@ -224,7 +224,7 @@ canvas {
 
 .print-report-table th,
 .print-report-table td {
-  border: 1px solid #edd6dc;
+  border: 1px solid #d9c6b6;
   padding: 10px;
   text-align: left;
   vertical-align: top;
@@ -232,7 +232,7 @@ canvas {
 }
 
 .print-report-table th {
-  background: #fde7ee;
+  background: #ead7c5;
 }
 
 .print-report-comment {
@@ -392,8 +392,8 @@ h2 {
 }
 
 .stock-summary-card {
-  background: linear-gradient(180deg, rgba(255, 252, 249, 0.98), rgba(255, 245, 247, 0.98));
-  box-shadow: 0 10px 20px rgba(214, 162, 170, 0.08);
+  background: linear-gradient(180deg, rgba(255, 252, 248, 0.98), rgba(244, 234, 223, 0.98));
+  box-shadow: 0 10px 20px rgba(91, 60, 34, 0.08);
 }
 
 .stock-summary-label {
@@ -406,13 +406,13 @@ h2 {
   display: block;
   font-size: 1.55rem;
   line-height: 1;
-  color: #8f4465;
+  color: #6b4226;
   margin-bottom: 6px;
 }
 
 .stock-summary-unit {
   font-size: 0.76rem;
-  color: #ab7b89;
+  color: #9a775d;
 }
 
 .stock-adjustment-groups {
@@ -442,9 +442,9 @@ h2 {
 }
 
 .stock-group-total {
-  color: #8f4465;
-  background: rgba(229, 142, 160, 0.12);
-  border: 1px solid rgba(229, 142, 160, 0.18);
+  color: #6b4226;
+  background: rgba(123, 75, 42, 0.12);
+  border: 1px solid rgba(123, 75, 42, 0.18);
   border-radius: 999px;
   padding: 8px 12px;
   white-space: nowrap;
@@ -498,7 +498,7 @@ h2 {
   background: #fff;
   text-align: center;
   font-weight: 700;
-  color: #7c3354;
+  color: #5b341b;
 }
 
 .category-nav {
@@ -530,7 +530,7 @@ h2 {
 .category-button.active {
   background: var(--brand);
   color: #fff;
-  box-shadow: 0 10px 22px rgba(229, 142, 160, 0.28);
+  box-shadow: 0 10px 22px rgba(123, 75, 42, 0.26);
 }
 
 .category-icon {
@@ -556,35 +556,35 @@ h2 {
 }
 
 .label-tart {
-  color: #d98f71;
+  color: #a5693f;
 }
 
 .label-all {
-  color: #d46c95;
+  color: #7b4b2a;
 }
 
 .label-pie {
-  color: #da8d74;
+  color: #9f6640;
 }
 
 .label-sandwich {
-  color: #6ab7b1;
+  color: #8f5f3a;
 }
 
 .label-croissant {
-  color: #d5a45f;
+  color: #b07c3d;
 }
 
 .label-bomboloni {
-  color: #8ec77d;
+  color: #7f8f5c;
 }
 
 .label-pastry {
-  color: #c69e7f;
+  color: #a07c5f;
 }
 
 .label-set {
-  color: #d9a47b;
+  color: #b18258;
 }
 
 .catalog-grid {
@@ -608,12 +608,12 @@ h2 {
 
 .catalog-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 30px rgba(221, 170, 182, 0.18);
+  box-shadow: 0 16px 30px rgba(115, 82, 49, 0.16);
 }
 
 .catalog-card.selected {
-  border-color: rgba(229, 142, 160, 0.5);
-  box-shadow: 0 18px 32px rgba(229, 142, 160, 0.22);
+  border-color: rgba(123, 75, 42, 0.4);
+  box-shadow: 0 18px 32px rgba(123, 75, 42, 0.2);
 }
 
 .catalog-card.sold-out {
@@ -636,47 +636,47 @@ h2 {
 }
 
 .flavor-almond {
-  background: linear-gradient(145deg, #fff1d8, #ffe0b9);
+  background: linear-gradient(145deg, #f4e1c8, #dfc1a0);
 }
 
 .flavor-chocolate {
-  background: linear-gradient(145deg, #f8d9d2, #eab8aa);
+  background: linear-gradient(145deg, #c49a78, #8d5d3b);
 }
 
 .flavor-hong-kong {
-  background: linear-gradient(145deg, #fff0ba, #ffe08c);
+  background: linear-gradient(145deg, #ead7b7, #c8a778);
 }
 
 .flavor-portuguese {
-  background: linear-gradient(145deg, #ffe2c7, #f6b98b);
+  background: linear-gradient(145deg, #efd6bc, #c79363);
 }
 
 .flavor-chicken {
-  background: linear-gradient(145deg, #ffe2d3, #f8c8b0);
+  background: linear-gradient(145deg, #d7b394, #a06d49);
 }
 
 .flavor-tuna {
-  background: linear-gradient(145deg, #daf4f5, #b8e2e6);
+  background: linear-gradient(145deg, #dbc7b2, #b49476);
 }
 
 .flavor-egg {
-  background: linear-gradient(145deg, #fff5c8, #ffe89e);
+  background: linear-gradient(145deg, #f1dfaf, #d0ab67);
 }
 
 .flavor-ham-cheese {
-  background: linear-gradient(145deg, #ffd9de, #ffbfc9);
+  background: linear-gradient(145deg, #e7ccb4, #bb8b62);
 }
 
 .flavor-crab {
-  background: linear-gradient(145deg, #ffe7dc, #f8cdb8);
+  background: linear-gradient(145deg, #ecd7c7, #cfab8c);
 }
 
 .flavor-sausage {
-  background: linear-gradient(145deg, #f7dcd8, #ecb9b0);
+  background: linear-gradient(145deg, #d5b7a6, #b18467);
 }
 
 .flavor-pistachio {
-  background: linear-gradient(145deg, #e5f7df, #c8ebbe);
+  background: linear-gradient(145deg, #e5dbc8, #c5aa84);
 }
 
 .flavor-matcha {
@@ -702,13 +702,13 @@ h2 {
   min-width: 34px;
   height: 34px;
   border-radius: 999px;
-  background: #f28fab;
+  background: #8a552e;
   color: #fff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  box-shadow: 0 10px 18px rgba(242, 143, 171, 0.3);
+  box-shadow: 0 10px 18px rgba(90, 56, 31, 0.28);
 }
 
 .inventory-insights {
@@ -741,7 +741,7 @@ h2 {
   border-radius: 999px;
   padding: 6px 10px;
   background: rgba(255, 255, 255, 0.72);
-  color: #b97987;
+  color: #8d6140;
   font-size: 0.78rem;
   margin-bottom: 10px;
 }
@@ -769,8 +769,8 @@ h2 {
   justify-content: center;
   padding: 6px 10px;
   border-radius: 999px;
-  background: rgba(210, 104, 125, 0.14);
-  color: #c14f69;
+  background: rgba(132, 83, 49, 0.14);
+  color: #8a552e;
   font-weight: 700;
 }
 
@@ -796,7 +796,7 @@ h2 {
 }
 
 .mini-button.danger {
-  color: #d2687d;
+  color: #9b5332;
 }
 
 .field {
@@ -872,9 +872,9 @@ h2 {
 }
 
 .checkout-panel {
-  background: linear-gradient(180deg, rgba(208, 102, 138, 0.94), rgba(178, 76, 118, 0.96));
-  border-color: rgba(148, 56, 93, 0.24);
-  color: #fff8fb;
+  background: linear-gradient(180deg, rgba(98, 63, 38, 0.96), rgba(63, 38, 20, 0.98));
+  border-color: rgba(74, 44, 22, 0.32);
+  color: #fff9f3;
 }
 
 .checkout-panel .section-label,
@@ -883,7 +883,7 @@ h2 {
 .checkout-panel .totals span,
 .checkout-panel .selected-item div,
 .checkout-panel .empty-state {
-  color: rgba(255, 242, 247, 0.82);
+  color: rgba(255, 244, 230, 0.82);
 }
 
 .checkout-panel h2,
@@ -893,40 +893,40 @@ h2 {
 }
 
 .checkout-panel .field select {
-  background: rgba(255, 248, 251, 0.96);
+  background: rgba(255, 249, 241, 0.96);
   border-color: rgba(255, 255, 255, 0.28);
-  color: #7c3354;
+  color: #5b341b;
 }
 
 .checkout-panel .field input {
-  background: rgba(255, 248, 251, 0.96);
+  background: rgba(255, 249, 241, 0.96);
   border-color: rgba(255, 255, 255, 0.28);
-  color: #7c3354;
+  color: #5b341b;
 }
 
 .checkout-panel .selected-items {
-  border: 1px solid rgba(255, 232, 240, 0.24);
+  border: 1px solid rgba(255, 233, 211, 0.24);
   background: rgba(255, 255, 255, 0.14);
 }
 
 .checkout-panel .selected-item {
-  border-bottom-color: rgba(255, 232, 240, 0.16);
+  border-bottom-color: rgba(255, 233, 211, 0.16);
 }
 
 .checkout-panel .totals > div {
   background: rgba(255, 255, 255, 0.14);
-  border-color: rgba(255, 232, 240, 0.22);
+  border-color: rgba(255, 233, 211, 0.22);
 }
 
 .checkout-panel .secondary-button {
-  background: #ffe2ec;
-  color: #96385f;
+  background: #efd8c1;
+  color: #5b341b;
 }
 
 .checkout-panel .primary-button,
 .mobile-record-button {
-  background: #ffb26e;
-  color: #4f1c2f;
+  background: #c9965e;
+  color: #2f1a0f;
 }
 
 .checkout-actions {
@@ -958,7 +958,7 @@ h2 {
 }
 
 .secondary-button {
-  background: #ffdbe5;
+  background: #ead7c5;
   color: var(--brand-strong);
 }
 
@@ -1074,12 +1074,12 @@ th {
 }
 
 .payment-cash {
-  background: rgba(125, 187, 157, 0.16);
-  color: #5d9a7d;
+  background: rgba(111, 143, 95, 0.16);
+  color: #5f7d4d;
 }
 
 .payment-qr {
-  background: rgba(229, 142, 160, 0.16);
+  background: rgba(123, 75, 42, 0.16);
   color: var(--brand-strong);
 }
 
@@ -1231,7 +1231,7 @@ th {
     font-size: 15px;
     background:
       radial-gradient(circle at top, rgba(255, 255, 255, 0.92), transparent 26%),
-      linear-gradient(180deg, #f8efe4 0%, #f1ddc2 100%);
+      linear-gradient(180deg, #f4e8da 0%, #d6b999 100%);
   }
 
   .app-shell {
@@ -1271,9 +1271,9 @@ th {
     min-width: 0;
     border-radius: 14px;
     padding: 8px 10px;
-    background: rgba(255, 248, 250, 0.95);
-    border: 1px solid rgba(229, 142, 160, 0.18);
-    box-shadow: 0 10px 24px rgba(229, 142, 160, 0.14);
+    background: rgba(255, 248, 241, 0.95);
+    border: 1px solid rgba(123, 75, 42, 0.18);
+    box-shadow: 0 10px 24px rgba(123, 75, 42, 0.14);
   }
 
   .mobile-header-pill span {
@@ -1306,8 +1306,8 @@ th {
     gap: 5px;
     margin-bottom: 8px;
     padding: 3px;
-    background: rgba(255, 247, 249, 0.84);
-    border: 1px solid rgba(229, 142, 160, 0.12);
+    background: rgba(253, 246, 238, 0.88);
+    border: 1px solid rgba(123, 75, 42, 0.12);
     border-radius: 16px;
     position: sticky;
     top: max(4px, env(safe-area-inset-top));
@@ -1329,7 +1329,7 @@ th {
   .panel {
     padding: 8px;
     border-radius: 16px;
-    box-shadow: 0 14px 32px rgba(84, 53, 24, 0.1);
+    box-shadow: 0 14px 32px rgba(84, 53, 24, 0.14);
   }
 
   .section-heading {
@@ -1443,7 +1443,7 @@ th {
     position: sticky;
     top: calc(env(safe-area-inset-top) + 58px);
     z-index: 20;
-    background: linear-gradient(180deg, rgba(208, 102, 138, 0.94), rgba(178, 76, 118, 0.96));
+    background: linear-gradient(180deg, rgba(98, 63, 38, 0.96), rgba(63, 38, 20, 0.98));
     border-radius: 14px;
     padding-bottom: 8px;
   }
